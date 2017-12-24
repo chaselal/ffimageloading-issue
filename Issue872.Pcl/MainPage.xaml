@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Issue872"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Issue872.MainPage">
+
+    <ListView x:Name="list" CachingStrategy="RecycleElement" RowHeight="150">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <ff:CachedImage x:Name="image"
+                                        DownsampleToViewSize="True"
+                                        RetryCount="0"
+                                        LoadingPlaceholder="{Binding File}"
+                                        ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"
+                                        Source="{Binding Url}"
+                                        />
+                        <!--LoadingPlaceholder="resource://Issue872.Pcl.loading.png"
+                                        ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"-->
+
+                        <StackLayout Grid.Column="1" Orientation="Horizontal">
+                            <Label Text="IsLoading?"/>
+                            <Label Text="{Binding IsLoading, Source={x:Reference image}}"/>
+                        </StackLayout>
+
+                        <Label Grid.Column="2" Text="{Binding Url}"/>
+                    </Grid>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
