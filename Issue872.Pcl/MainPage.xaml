@@ -17,7 +17,12 @@
                         </Grid.ColumnDefinitions>
 
                         <ff:CachedImage x:Name="image"
-                                        DownsampleToViewSize="True"
+                                        VerticalOptions="FillAndExpand"
+                                        HorizontalOptions="FillAndExpand"
+                                        HeightRequest="200"
+                                        WidthRequest="200"
+                                        DownsampleHeight="200"
+                                        DownsampleWidth="200"
                                         RetryCount="0"
                                         LoadingPlaceholder="{Binding File}"
                                         ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"
