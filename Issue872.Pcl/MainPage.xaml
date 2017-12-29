@@ -23,20 +23,22 @@
                                         WidthRequest="200"
                                         DownsampleHeight="200"
                                         DownsampleWidth="200"
-                                        RetryCount="0"
-                                        LoadingPlaceholder="{Binding File}"
+                                        RetryCount="10"
+                                        RetryDelay="1000"
+                                        LoadingPlaceholder="{Binding Placeholder}"
+                                        Source="https://www.apofjasoldcvmeorkifjoasprjdfsgdlskijvlrm.com/aseofiwfj.png"
                                         ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"
-                                        Source="{Binding Url}"
                                         />
-                        <!--LoadingPlaceholder="resource://Issue872.Pcl.loading.png"
-                                        ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"-->
 
                         <StackLayout Grid.Column="1" Orientation="Horizontal">
                             <Label Text="IsLoading?"/>
                             <Label Text="{Binding IsLoading, Source={x:Reference image}}"/>
                         </StackLayout>
 
-                        <Label Grid.Column="2" Text="{Binding Url}"/>
+                        <StackLayout Grid.Column="2" Orientation="Horizontal">
+                            <Label Text="LoadingPlaceholder"/>
+                            <Label Text="{Binding Placeholder}"/>
+                        </StackLayout>
                     </Grid>
 
                 </ViewCell>

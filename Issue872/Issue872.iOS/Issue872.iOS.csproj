@@ -131,67 +131,97 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk9.png" />
+    <BundleResource Include="Resources\loaded.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk1.png" />
+    <BundleResource Include="Resources\placeholder9.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk10.png" />
+    <BundleResource Include="Resources\placeholder1.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk11.png" />
+    <BundleResource Include="Resources\placeholder10.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk12.png" />
+    <BundleResource Include="Resources\placeholder11.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk13.png" />
+    <BundleResource Include="Resources\placeholder12.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk14.png" />
+    <BundleResource Include="Resources\placeholder13.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk15.png" />
+    <BundleResource Include="Resources\placeholder14.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk16.png" />
+    <BundleResource Include="Resources\placeholder15.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk17.png" />
+    <BundleResource Include="Resources\placeholder16.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk18.png" />
+    <BundleResource Include="Resources\placeholder17.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk19.png" />
+    <BundleResource Include="Resources\placeholder18.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk20.png" />
+    <BundleResource Include="Resources\placeholder19.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk21.png" />
+    <BundleResource Include="Resources\placeholder2.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk22.png" />
+    <BundleResource Include="Resources\placeholder20.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk23.png" />
+    <BundleResource Include="Resources\placeholder21.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk4.png" />
+    <BundleResource Include="Resources\placeholder22.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk5.png" />
+    <BundleResource Include="Resources\placeholder23.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk6.png" />
+    <BundleResource Include="Resources\placeholder24.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk7.png" />
+    <BundleResource Include="Resources\placeholder25.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\disk8.png" />
+    <BundleResource Include="Resources\placeholder26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\placeholder8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

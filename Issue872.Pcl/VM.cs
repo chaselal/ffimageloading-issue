@@ -4,9 +4,7 @@
 	{
         public class VM
         {
-            public string File { get; set; }
-            public int I { get; set; }
-            public string Url { get; set; }
+            public string Placeholder { get; set; }
         }
     }
 }

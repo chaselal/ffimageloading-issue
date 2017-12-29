@@ -89,67 +89,97 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk1.png" />
+    <AndroidResource Include="Resources\drawable\loaded.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk4.png" />
+    <AndroidResource Include="Resources\drawable\placeholder1.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk5.png" />
+    <AndroidResource Include="Resources\drawable\placeholder2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk6.png" />
+    <AndroidResource Include="Resources\drawable\placeholder3.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk7.png" />
+    <AndroidResource Include="Resources\drawable\placeholder4.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk8.png" />
+    <AndroidResource Include="Resources\drawable\placeholder5.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk9.png" />
+    <AndroidResource Include="Resources\drawable\placeholder6.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk10.png" />
+    <AndroidResource Include="Resources\drawable\placeholder7.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk11.png" />
+    <AndroidResource Include="Resources\drawable\placeholder8.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk12.png" />
+    <AndroidResource Include="Resources\drawable\placeholder9.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk13.png" />
+    <AndroidResource Include="Resources\drawable\placeholder10.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk14.png" />
+    <AndroidResource Include="Resources\drawable\placeholder11.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk15.png" />
+    <AndroidResource Include="Resources\drawable\placeholder12.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk16.png" />
+    <AndroidResource Include="Resources\drawable\placeholder13.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk17.png" />
+    <AndroidResource Include="Resources\drawable\placeholder14.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk18.png" />
+    <AndroidResource Include="Resources\drawable\placeholder15.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk19.png" />
+    <AndroidResource Include="Resources\drawable\placeholder16.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk20.png" />
+    <AndroidResource Include="Resources\drawable\placeholder17.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk21.png" />
+    <AndroidResource Include="Resources\drawable\placeholder18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk22.png" />
+    <AndroidResource Include="Resources\drawable\placeholder19.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disk23.png" />
+    <AndroidResource Include="Resources\drawable\placeholder20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
