@@ -15,7 +15,7 @@ namespace Issue872.Droid
     [Activity(Label = "Issue872", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        protected async override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
@@ -25,7 +25,7 @@ namespace Issue872.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             CachedImageRenderer.Init(false);
             ImageService.Instance.Initialize();
-            await ImageService.Instance.InvalidateCacheAsync(FFImageLoading.Cache.CacheType.All); // clear cache to make testing more convenient
+            ImageService.Instance.InvalidateCacheAsync(FFImageLoading.Cache.CacheType.All).Wait(); // clear cache to make testing more convenient
             LoadApplication(new App());
         }
     }

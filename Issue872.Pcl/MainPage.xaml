@@ -21,14 +21,16 @@
                                         HorizontalOptions="FillAndExpand"
                                         HeightRequest="200"
                                         WidthRequest="200"
+                                        RetryCount="0"
+                                        FadeAnimationEnabled="False"
+                                        FadeAnimationForCachedImages="False"
                                         DownsampleHeight="200"
-                                        DownsampleWidth="200"
-                                        RetryCount="10"
-                                        RetryDelay="1000"
                                         LoadingPlaceholder="{Binding Placeholder}"
-                                        Source="https://www.apofjasoldcvmeorkifjoasprjdfsgdlskijvlrm.com/aseofiwfj.png"
+                                        Source="{Binding Url}"
                                         ErrorPlaceholder="resource://Issue872.Pcl.error.jpg"
                                         />
+                                        <!--RetryCount="10"
+                                        RetryDelay="1000"-->
 
                         <StackLayout Grid.Column="1" Orientation="Horizontal">
                             <Label Text="IsLoading?"/>

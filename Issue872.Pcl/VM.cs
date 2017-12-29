@@ -5,6 +5,7 @@
         public class VM
         {
             public string Placeholder { get; set; }
+            public string Url { get; set; }
         }
     }
 }
